@@ -1,0 +1,52 @@
+/*INCIALIZAR ESTILOS basico*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*Encabezado*/
+header{
+    background-color: #e5edf1;
+    color: rgba(3, 1, 1, 0.562);
+    text-align: center;
+    padding: px;
+}
+
+/*Menu de navegacion*/
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0f55;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {/* al los elementos li y a cuando colocamos el mouse*/
+    background-color: #72164c;
+    border-radius: 5px;
+}
+
+/*contenido principal*/
+main{
+    padding: 20px;
+}
+
+/*pie de pagina*/
+footer{
+    background-color: #5452582c;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
